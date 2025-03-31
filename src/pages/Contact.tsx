@@ -175,28 +175,28 @@ const Contact = () => {
             {[
               {
                 question: 'Do you offer free estimates?',
-                answer: 'Yes, we provide free estimates for all residential and commercial plumbing projects. Contact us to schedule an appointment with one of our plumbing experts.',
+                answer: 'Yes, we provide free estimates for all residential and commercial plumbing projects. Contact us to schedule an appointment with one of our plumbing experts.'
               },
               {
                 question: 'Are your plumbers licensed and insured?',
-                answer: 'Absolutely. All our plumbers are fully licensed, insured, and have undergone extensive training and background checks for your peace of mind.',
+                answer: 'Absolutely. All our plumbers are fully licensed, insured, and have undergone extensive training and background checks for your peace of mind.'
               },
               {
                 question: 'How quickly can you respond to emergencies?',
-                answer: 'For emergency situations, we typically respond within 1-2 hours. We offer 24/7 emergency services to address urgent plumbing issues.',
+                answer: 'For emergency situations, we typically respond within 1-2 hours. We offer 24/7 emergency services to address urgent plumbing issues.'
               },
               {
                 question: 'Do you offer warranties on your work?',
-                answer: 'Yes, we stand behind our work with comprehensive warranties. All installations come with a 1-year warranty on labor, and we honor manufacturer warranties on parts and fixtures.',
+                answer: 'Yes, we stand behind our work with comprehensive warranties. All installations come with a 1-year warranty on labor, and we honor manufacturer warranties on parts and fixtures.'
               },
               {
                 question: 'What payment methods do you accept?',
-                answer: 'We accept cash, checks, all major credit cards, and digital payment methods like PayPal for your convenience. Payment plans are available for larger projects.',
+                answer: 'We accept cash, checks, all major credit cards, and digital payment methods like PayPal for your convenience. Payment plans are available for larger projects.'
               },
               {
                 question: 'Do I need to be home during the service?',
-                answer: 'While it's preferable for someone to be present during the service, arrangements can be made if you can't be home. We prioritize your comfort and security.',
-              },
+                answer: "While it's preferable for someone to be present during the service, arrangements can be made if you can't be home. We prioritize your comfort and security."
+              }
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-lg font-bold text-plum-dark-teal mb-3">{faq.question}</h3>

@@ -301,18 +301,18 @@ const Services = () => {
               {
                 name: 'John Smith',
                 location: 'Downtown Metro',
-                testimonial: 'The PlumbingCo team responded quickly to our emergency leak. They were professional, clean, and fixed the issue permanently.',
+                testimonial: 'The PlumbingCo team responded quickly to our emergency leak. They were professional, clean, and fixed the issue permanently.'
               },
               {
                 name: 'Sarah Johnson',
                 location: 'Westside',
-                testimonial: 'We hired PlumbingCo for a complete bathroom remodel. Their attention to detail and quality of work exceeded our expectations.',
+                testimonial: 'We hired PlumbingCo for a complete bathroom remodel. Their attention to detail and quality of work exceeded our expectations.'
               },
               {
                 name: 'Michael Brown',
                 location: 'East Hills',
-                testimonial: 'As a property manager, I rely on PlumbingCo for all our plumbing needs. They're always dependable, honest, and reasonably priced.',
-              },
+                testimonial: "As a property manager, I rely on PlumbingCo for all our plumbing needs. They're always dependable, honest, and reasonably priced."
+              }
             ].map((testimonial, index) => (
               <div key={index} className="bg-plum-teal/30 p-6 rounded-lg">
                 <div className="text-2xl mb-4">"</div>
