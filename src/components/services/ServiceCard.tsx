@@ -1,4 +1,6 @@
 
+import React from 'react';
+
 /**
  * Service card component for highlighting company services
  * @param {string} title - Service title
